@@ -7,7 +7,6 @@ import SearchBar from "./components/SearchBar";
 import Footer from "./components/Footer";
 
 const postsData = [
-  // ✅ Tech Posts (6)
   {
     id: 1,
     title: "Exploring React",
@@ -57,7 +56,6 @@ const postsData = [
     date: "2025-04-22",
   },
 
-  // ✅ Food Posts (6)
   {
     id: 7,
     title: "Top 10 Healthy Foods",
@@ -107,7 +105,6 @@ const postsData = [
     date: "2025-02-28",
   },
 
-  // ✅ Travel Posts (6)
   {
     id: 13,
     title: "Trip to Hunza Valley",
@@ -168,24 +165,21 @@ function App() {
   const [currentPage, setCurrentPage] = useState(1);
   const postsPerPage = 6;
 
-  // Filter by category
   const filteredPosts =
     category === "All"
       ? postsData
       : postsData.filter((post) => post.category === category);
 
-  // Search filter
   const searchedPosts = filteredPosts.filter((post) =>
     post.title.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
-  // Pagination logic
 let currentPosts;
 if (category === "All") {
-  // show all posts when "All" is selected
+
   currentPosts = searchedPosts;
 } else {
-  // normal pagination for other categories
+  
   const indexOfLastPost = currentPage * postsPerPage;
   const indexOfFirstPost = indexOfLastPost - postsPerPage;
   currentPosts = searchedPosts.slice(indexOfFirstPost, indexOfLastPost);
