@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "title": "CloudSphere Dashboard",
+    "price": 0,
+    "description": "Unified control panel to monitor performance, uptime, and resource usage in real-time.",
+    "category": "feature",
+    "image": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+  },
+  {
+    "id": 2,
+    "title": "AI-Powered Insights",
+    "price": 0,
+    "description": "Leverage machine learning to optimize workloads, reduce costs, and predict issues before they happen.",
+    "category": "feature",
+    "image": "https://cdn-icons-png.flaticon.com/512/4712/4712109.png"
+  },
+  {
+    "id": 3,
+    "title": "Team Collaboration",
+    "price": 0,
+    "description": "Seamless integration with Slack, Teams, and email for real-time project updates and alerts.",
+    "category": "feature",
+    "image": "https://cdn-icons-png.flaticon.com/512/1041/1041916.png"
+  },
+  {
+    "id": 4,
+    "title": "API & Developer Tools",
+    "price": 0,
+    "description": "Robust APIs and SDKs for developers to extend platform functionality with ease.",
+    "category": "feature",
+    "image": "https://cdn-icons-png.flaticon.com/512/906/906324.png"
+  },
+  {
+    "id": 5,
+    "title": "Security & Compliance",
+    "price": 0,
+    "description": "End-to-end encryption, SOC2 compliance, and advanced access controls to protect your data.",
+    "category": "feature",
+    "image": "https://cdn-icons-png.flaticon.com/512/3135/3135718.png"
+  },
+  {
+    "id": 6,
+    "title": "Real-Time Analytics",
+    "price": 0,
+    "description": "Interactive dashboards to visualize usage metrics and KPIs instantly.",
+    "category": "feature",
+    "image": "https://cdn-icons-png.flaticon.com/512/3135/3135721.png"
+  },
+  {
+    "id": 7,
+    "title": "24/7 Support",
+    "price": 0,
+    "description": "Round-the-clock customer support to assist your team anytime, anywhere.",
+    "category": "feature",
+    "image": "https://cdn-icons-png.flaticon.com/512/3135/3135719.png"
+  },
+  {
+    "id": 8,
+    "title": "Cloud Automation",
+    "price": 0,
+    "description": "Automate repetitive tasks, deploy workflows, and improve operational efficiency.",
+    "category": "feature",
+    "image": "https://cdn-icons-png.flaticon.com/512/3135/3135722.png"
+  },
+  {
+    "id": 9,
+    "title": "Starter Plan",
+    "price": 19,
+    "description": "Best for freelancers and small teams. Includes up to 5 projects, cloud hosting, and basic analytics.",
+    "category": "pricing",
+    "image": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+  },
+  {
+    "id": 10,
+    "title": "Pro Plan",
+    "price": 49,
+    "description": "For growing startups. Unlimited projects, advanced monitoring, integrations, and 24/7 support.",
+    "category": "pricing",
+    "image": "https://cdn-icons-png.flaticon.com/512/1903/1903226.png"
+  },
+  {
+    "id": 11,
+    "title": "Enterprise Plan",
+    "price": 199,
+    "description": "Full suite for enterprises: dedicated cloud resources, AI automation, security compliance, priority support.",
+    "category": "pricing",
+    "image": "https://cdn-icons-png.flaticon.com/512/1006/1006771.png"
+  },
+  {
+    "id": 12,
+    "title": "Acme Inc. Success Story",
+    "price": 0,
+    "description": "Acme scaled their operations 3x faster with CloudSphere. 'A game-changer for our remote teams.'",
+    "category": "testimonial",
+    "image": "https://cdn-icons-png.flaticon.com/512/194/194938.png"
+  },
+  {
+    "id": 13,
+    "title": "NovaTech Success Story",
+    "price": 0,
+    "description": "NovaTech reduced cloud costs by 40% using AI-powered optimization tools from CloudSphere.",
+    "category": "testimonial",
+    "image": "https://cdn-icons-png.flaticon.com/512/2922/2922510.png"
+  }
+]
