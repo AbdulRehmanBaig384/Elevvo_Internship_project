@@ -43,11 +43,6 @@ export const getHours = (timeUnix, timezone) => {
     return `${hours % 12 || 12} ${period}`;
 };
 
-/**
- * 
- * @param {number} mps metter per seconed 
- * @returns {number} kilometer per hours
- */
 export const mps_to_kmh=mps=>{
     const mph =mps * 3600;
     return mph / 1000;
