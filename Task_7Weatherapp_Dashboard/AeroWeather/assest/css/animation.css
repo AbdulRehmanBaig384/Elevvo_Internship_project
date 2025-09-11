@@ -10,20 +10,17 @@ body {
   background-size: cover;
   height: 230vh;
 }
-
 @keyframes pageLoad {
   to {
     opacity: 1;
     transform: translateY(0);
   }
 }
-
 .logo img {
   width: 120px;
   animation: float 3s ease-in-out infinite alternate;
   filter: drop-shadow(0 0 8px rgba(255,255,255,0.7));
 }
-
 @keyframes float {
   from { transform: translateY(0px); }
   to   { transform: translateY(-10px); }
@@ -41,7 +38,6 @@ body {
   color: #fff;
   transition: transform 0.2s ease, box-shadow 0.3s ease, background 0.4s ease;
 }
-
 .btn-primary:hover, 
 .icon-btn:hover {
   transform: translateY(-3px);
@@ -88,5 +84,6 @@ body {
   0%, 100% { transform: translateY(0); }
   50%      { transform: translateY(-10px); }
 }
+
 
 
