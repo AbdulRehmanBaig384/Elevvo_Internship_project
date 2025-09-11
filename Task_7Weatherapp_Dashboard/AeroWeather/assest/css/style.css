@@ -35,7 +35,6 @@
     hsla(260, 5%, 12%, 0.8) 65%,
     hsl(260, 5%, 12%) 100%
   );
-
   --ff-nunito-sans: "Nunito Sans", sans-serif;
   --heading: 5.6rem;
   --title-1: 2rem;
@@ -59,7 +58,6 @@
 
   --transition-short: 100ms ease;
 }
-
 *,*::before,
 *::after {
   margin: 0;
@@ -96,7 +94,6 @@ input {
 button {
   cursor: pointer;
 }
-
 sub {
   vertical-align: baseline;
 }
@@ -112,8 +109,8 @@ body {
   background-color: var(--background);
   color: var(--on-background);
   font-size: var(--body-3);
-
 }
+
 :focus-visible {
   outline: 2px solid var(--white);
   outline-offset: 2px;
@@ -132,7 +129,6 @@ body {
   background-color: var(--white-alpha-8);
   border-radius: var(--radius-pill);
 }
-
 @font-face {
   font-family: "Material Symbols Rounded";
   font-style: normal;
