@@ -25,7 +25,6 @@ body {
   from { transform: translateY(0px); }
   to   { transform: translateY(-10px); }
 }
-
 .search-field:focus {
   box-shadow: 0 0 18px rgba(0, 191, 255, 0.8);
   border-color: #00bfff;
@@ -44,14 +43,12 @@ body {
   box-shadow: 0 6px 20px rgba(0,0,0,0.4);
   background: linear-gradient(45deg, #0072ff, #00c6ff);
 }
-
 .current-weather {
   animation: fadeScale 1.2s ease-in-out;
   background: rgba(255, 255, 255, 0.05);
   border-radius: 16px;
   padding: 1rem;
 }
-
 @keyframes fadeScale {
   0%   { opacity: 0; transform: scale(0.9); }
   100% { opacity: 1; transform: scale(1); }
@@ -78,4 +75,3 @@ body {
   0%, 100% { transform: translateY(0); }
   50%      { transform: translateY(-10px); }
 }
-
