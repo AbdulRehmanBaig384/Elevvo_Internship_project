@@ -35,7 +35,6 @@ body {
   list-style: none;
   padding: 20px 0;
 }
-
 .sidebar ul li {
   padding: 15px 20px;
   display: flex;
@@ -43,7 +42,6 @@ body {
   cursor: pointer;
   transition: background 0.3s;
 }
-
 .sidebar ul li:hover {
   background: #33334d;
 }
@@ -103,6 +101,7 @@ img{
     height: 50px;
     padding-top: 10px;
 }
+
 
 
 
