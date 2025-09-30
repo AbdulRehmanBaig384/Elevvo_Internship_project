@@ -23,7 +23,6 @@ body {
 .sidebar.active {
   left: 0;
 }
-
 .sidebar .logo {
   padding: 20px;
   text-align: center;
@@ -32,7 +31,6 @@ body {
   background: #111123;
   letter-spacing: 2px;
 }
-
 .sidebar ul {
   list-style: none;
   padding: 20px 0;
@@ -105,5 +103,6 @@ img{
     height: 50px;
     padding-top: 10px;
 }
+
 
 
