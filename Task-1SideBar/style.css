@@ -4,14 +4,12 @@
   box-sizing: border-box;
   font-family: Arial, sans-serif;
 }
-
 body {
   display: flex;
   min-height: 100vh;
   background: #f4f6f9;
 }
 
-/* Sidebar */
 .sidebar {
   width: 250px;
   height: 100vh;
@@ -109,3 +107,4 @@ img{
     height: 50px;
     padding-top: 10px;
 }
+
