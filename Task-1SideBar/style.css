@@ -50,8 +50,6 @@ body {
   margin-right: 15px;
   font-size: 18px;
 }
-
-/* Toggle Button */
 .toggle-btn {
   position: absolute;
   left: 20px;
@@ -101,6 +99,7 @@ img{
     height: 50px;
     padding-top: 10px;
 }
+
 
 
 
