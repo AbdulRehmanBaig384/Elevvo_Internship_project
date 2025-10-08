@@ -68,7 +68,6 @@ body {
   background: #33334d;
 }
 
-/* Main content */
 .content {
   flex: 1;
   margin-left: 60px;
@@ -99,6 +98,7 @@ img{
     height: 50px;
     padding-top: 10px;
 }
+
 
 
 
