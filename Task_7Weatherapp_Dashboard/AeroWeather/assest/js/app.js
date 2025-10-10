@@ -1,12 +1,7 @@
 'use strict';
 import { fetchData,url } from "./api.js";
 import * as module from "./module.js";
-/**
- * 
- * @param {NodeList} elements Elemetns node array
- * @param {String} eventType Event Type e.g: "click","mouseover"
- * @param {Function} callback callback function
- */
+
 const addEventOnElements=(elements, eventType, callback)=>{
     for(const element of elements)
         element.addEventListener(eventType,callback);
@@ -310,4 +305,5 @@ export const updateWeather = (lat,lon)=>{
 }
 export const error404=()=>{
     errorContent.style.display="flex"
+
 };
