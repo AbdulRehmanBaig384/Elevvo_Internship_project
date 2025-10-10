@@ -72,12 +72,9 @@ body {
   padding: 20px;
   transition: margin-left 0.4s;
 }
-
 .sidebar.active ~ .content {
   margin-left: 250px;
 }
-
-/* Responsive */
 @media(max-width: 768px) {
   .sidebar {
     width: 200px;
@@ -88,7 +85,6 @@ body {
     margin-left: 200px;
   }
 }
-
 img{
     color: white;
     background-color: white;
