@@ -13,8 +13,6 @@ const toggleSearch=()=>{
 }
 addEventOnElements(searchTogglers,"click",toggleSearch);
 
-// search integration
-
 const searchField = document.querySelector("[data-search-field]");
 const searchResult = document.querySelector("[data-search-result]");
 
@@ -307,3 +305,4 @@ export const error404=()=>{
     errorContent.style.display="flex"
 
 };
+
