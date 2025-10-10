@@ -125,7 +125,6 @@ export const updateWeather = (lat,lon)=>{
         })
         currentWeatherSection.appendChild(card);
 
-        //today's highlights
 
         fetchData(url.airPollution(lat,lon),(airPollution)=>{
             const[{
@@ -305,4 +304,5 @@ export const error404=()=>{
     errorContent.style.display="flex"
 
 };
+
 
